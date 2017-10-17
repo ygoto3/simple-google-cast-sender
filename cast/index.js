@@ -1,4 +1,4 @@
-import EventListeners from '/utils/EventListeners.js';
+import EventListeners from '../utils/EventListeners.js';
 
 export class Cast extends EventListeners {
 
