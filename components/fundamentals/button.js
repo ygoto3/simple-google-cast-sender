@@ -5,6 +5,7 @@ export class ButtonPrimary extends HTMLElement {
       <style>
         button {
           background-color: #4284f4;
+          border-radius: 4px;
           border-width: 0;
           color: #fff;
           padding: 5px 10px;
