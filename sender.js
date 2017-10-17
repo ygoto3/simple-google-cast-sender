@@ -1,5 +1,5 @@
-import { Cast } from 'https://ygoto3.github.io/simple-google-cast-sender/cast/index.js';
-import 'https://ygoto3.github.io/simple-google-cast-sender/components/index.js';
+import { Cast } from './cast/index.js';
+import './components/index.js';
 
 Promise.all([
   new Promise(resolve => window['__onGCastApiAvailable'] = resolve),

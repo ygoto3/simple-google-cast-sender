@@ -1,5 +1,5 @@
-import { Cast } from '/cast/index.js';
-import storage from '/utils/storage.js';
+import { Cast } from '../../cast/index.js';
+import storage from '../../utils/storage.js';
 
 export class SenderPage extends HTMLElement {
 
