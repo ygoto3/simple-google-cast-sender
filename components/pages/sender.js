@@ -1,6 +1,5 @@
 import { Cast } from '../../cast/index.js';
-import storage from '../../utils/storage.js';
-
+import storage from '../../utils/storage.js'; 
 export class SenderPage extends HTMLElement {
 
   static get template() {
@@ -77,7 +76,7 @@ export class SenderPage extends HTMLElement {
     })
     shadow.innerHTML = SenderPage.template;
 
-    var previousValues = JSON.parse(storage.get('previous-data') || '{}');
+    var previousValues = JSON.parse(storage.get('previous-data') || '{"contentId":"","customData":{}}');
 
     const castInstance = Cast.getInstance();
 
