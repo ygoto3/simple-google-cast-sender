@@ -76,7 +76,7 @@ export class SenderPage extends HTMLElement {
     })
     shadow.innerHTML = SenderPage.template;
 
-    var previousValues = JSON.parse(storage.get('previous-data') || '{"contentId":"","customData":{}}');
+    var previousValues = JSON.parse(storage.get('previous-data') || '{}');
 
     const castInstance = Cast.getInstance();
 

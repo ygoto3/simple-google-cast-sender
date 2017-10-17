@@ -42,8 +42,8 @@ export class CastForm extends HTMLElement {
   }
 
   set value(data) {
-    this.textBoxContentId.value = data.contentId;
-    this.textBoxCustomData.value = JSON.stringify(data.customData);
+    this.textBoxContentId.value = data.contentId || '';
+    this.textBoxCustomData.value = JSON.stringify(data.customData) || '';
   }
 
   connectedCallback() {
